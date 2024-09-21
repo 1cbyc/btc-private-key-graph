@@ -1,3 +1,4 @@
 # btc-private-key-graph
 
-three years ago, i wrote a c# program to allow me generate bitcoin private key especially when they are incomplete.
+three years ago, i wrote a c# program to allow me generate bitcoin private key especially when they are incomplete. since there has been alot of change with these things, i am inclined to write it more efficiently.
+
