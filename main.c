@@ -16,5 +16,5 @@ int main() {
 
     printf("this is the new priv key: %s\n", priv_key);
 
-        return 0;
+    return 0;
 }
