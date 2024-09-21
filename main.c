@@ -5,6 +5,6 @@
 
 int main() {
     // this will set random seed
-    
+    srand(time(NULL));    
 
 }
