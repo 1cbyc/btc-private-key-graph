@@ -14,6 +14,7 @@ int main() {
     // finally generate the priv key
     generate_priv_key(priv_key, key_length);
 
-        printf("this is the new priv key: %s\n", priv_key);
+    printf("this is the new priv key: %s\n", priv_key);
 
+        return 0;
 }
