@@ -4,6 +4,7 @@
 #include "keygen.h"
 
 int main() {
-    // this 
+    // this will set random seed
+    
 
 }
