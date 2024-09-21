@@ -7,7 +7,7 @@ int main() {
     // this will set random seed
     srand(time(NULL));
 
-    // determine the le
+    // determine the length of the private 
     int key_length = 64;      
 
 }
