@@ -14,5 +14,5 @@ void generate_priv_key(char *output, int length) {
         output[i] = validChars[randomIndex];
     }
 
-    output[length] = '\0'; // Null-terminate the string
+    output[length] = '\0'; // i get to null-terminate the string
 }
