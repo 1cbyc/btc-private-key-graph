@@ -4,3 +4,6 @@
 #include "keygen.h"
 
 int main() {
+//
+
+}
