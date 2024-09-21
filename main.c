@@ -12,6 +12,8 @@ int main() {
     char priv_key[65];  // give an extra space for the null terminator i wrote earlier
 
     // finally generate the priv key
-        generate_priv_key(priv_key, key_length);
+    generate_priv_key(priv_key, key_length);
+
+        printf("Generated BTC Private Key: %s\n", priv_key);
 
 }
