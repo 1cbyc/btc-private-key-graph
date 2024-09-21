@@ -3,3 +3,4 @@
 #include <time.h>
 #include "keygen.h"
 
+int main() {
