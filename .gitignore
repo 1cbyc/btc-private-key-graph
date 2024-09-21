@@ -1,0 +1,57 @@
+# Ignore object files, shared libraries, and executables
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore static libraries
+*.lib
+
+# Ignore temporary files created by editors or IDEs
+*~
+*.swp
+*.tmp
+
+# Ignore build directories (if used)
+build/
+dist/
+bin/
+obj/
+
+# Ignore debugging files
+*.dSYM/
+*.dmp
+*.core
+
+# Ignore CMake files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore CLion IDE settings
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore tags for ctags, etags, and other utilities
+tags
+TAGS
+
+
+# personal
+hi
+hide.c
