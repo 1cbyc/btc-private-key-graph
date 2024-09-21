@@ -14,6 +14,6 @@ int main() {
     // finally generate the priv key
     generate_priv_key(priv_key, key_length);
 
-        printf("Generated BTC Private Key: %s\n", priv_key);
+        printf(" BTC Private Key: %s\n", priv_key);
 
 }
