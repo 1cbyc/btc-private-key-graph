@@ -6,4 +6,4 @@ three years ago, i wrote a c# program to allow me generate bitcoin private key e
 
 # just do this
 1. run the make command
-2. 
+2. then run the generated 
