@@ -1,8 +1,10 @@
 # Bitcoin Private Key Generator
 
-A sophisticated, cryptographically secure Bitcoin private key generator that creates valid Bitcoin private keys and derives corresponding addresses. This tool is designed for real-world use with proper security practices and comprehensive error handling.
+(asked AI to write the readme for me, you will notice it is different from the #old-readme.md file)
 
-## Features
+A cryptographically secure Bitcoin private key generator that creates valid Bitcoin private keys and derives corresponding addresses. This tool is designed for real-world use with proper security practices and comprehensive error handling.
+
+## What it does
 
 - **Cryptographically Secure**: Uses OpenSSL for secure random number generation
 - **Valid Bitcoin Keys**: Generates proper 256-bit private keys within valid range
