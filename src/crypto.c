@@ -3,6 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include "crypto.h"
+#include "address.h"
 #include "utils.h"
 
 static int initialized = 0;

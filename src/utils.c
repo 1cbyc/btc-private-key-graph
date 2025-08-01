@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include "utils.h"
+#include "address.h"
 
 // this way, we get a random number between 0 and limit -1
 int get_random_number(int limit) {
