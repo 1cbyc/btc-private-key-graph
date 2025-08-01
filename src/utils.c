@@ -36,7 +36,6 @@ int bytes_to_hex(const uint8_t *bytes, size_t bytes_size, char *hex, size_t hex_
     if (!bytes || !hex || hex_size == 0) return -1;
     
     if (hex_size < bytes_size * 2 + 1) {
-        fprintf(stderr, "Buffer too small: need %zu, have %zu\n", bytes_size * 2 + 1, hex_size);
         return -1;
     }
     
