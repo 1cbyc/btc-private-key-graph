@@ -5,7 +5,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-#define MAX_HEX_STRING_SIZE 65
+#define MAX_HEX_STRING_SIZE 131
 #define MAX_WIF_STRING_SIZE 52
 #define MAX_ADDRESS_STRING_SIZE 35
 
