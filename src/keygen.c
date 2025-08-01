@@ -84,18 +84,22 @@ int print_key_information(const private_key_t *private_key, const public_key_t *
     char address_string[MAX_ADDRESS_STRING_SIZE];
     
     if (bytes_to_hex(private_key->data, PRIVATE_KEY_SIZE, hex_private_key, sizeof(hex_private_key)) != 0) {
+        fprintf(stderr, "Failed to convert private key to hex\n");
         return -1;
     }
     
     if (private_key_to_wif(private_key, wif_private_key, sizeof(wif_private_key)) != 0) {
+        fprintf(stderr, "Failed to convert private key to WIF\n");
         return -1;
     }
     
     if (bytes_to_hex(public_key->data, public_key->length, hex_public_key, sizeof(hex_public_key)) != 0) {
+        fprintf(stderr, "Failed to convert public key to hex\n");
         return -1;
     }
     
     if (address && base58_encode(address->data, address->length, address_string, sizeof(address_string)) != 0) {
+        fprintf(stderr, "Failed to encode address\n");
         return -1;
     }
     
