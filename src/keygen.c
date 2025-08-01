@@ -93,6 +93,12 @@ int print_key_information(const private_key_t *private_key, const public_key_t *
         return -1;
     }
     
+    fprintf(stderr, "Debug: public_key->length = %zu\n", public_key->length);
+    if (public_key->length == 0) {
+        fprintf(stderr, "Public key length is 0, setting to default\n");
+        public_key->length = PUBLIC_KEY_SIZE;
+    }
+    
     if (bytes_to_hex(public_key->data, public_key->length, hex_public_key, sizeof(hex_public_key)) != 0) {
         fprintf(stderr, "Failed to convert public key to hex\n");
         return -1;
