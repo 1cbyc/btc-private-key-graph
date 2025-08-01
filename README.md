@@ -2,6 +2,8 @@
 
 **⚠️ WARNING: This tool is for EDUCATIONAL PURPOSES ONLY. Do not use generated keys for real Bitcoin transactions. Always follow proper security practices when working with cryptocurrency.**
 
+(asked AI to write the readme for me, you will notice it is different from the #old-readme.md file)
+
 A sophisticated, cryptographically secure Bitcoin private key generator that creates valid Bitcoin private keys and derives corresponding addresses. This tool is designed for real-world use with proper security practices and comprehensive error handling.
 
 ## Features
@@ -189,28 +191,6 @@ make test
 ### Distribution
 ```bash
 make dist
-```
-
-## Project Structure
-
-```
-btc-private-key-graph/
-├── src/
-│   ├── main.c          # Main application entry point
-│   ├── keygen.c        # Key generation logic
-│   ├── crypto.c        # Cryptographic functions
-│   ├── address.c       # Address derivation
-│   └── utils.c         # Utility functions
-├── include/
-│   ├── keygen.h        # Key generation interface
-│   ├── crypto.h        # Cryptographic interface
-│   ├── address.h       # Address derivation interface
-│   └── utils.h         # Utility function interface
-├── docs/
-│   ├── explanation.md  # Technical documentation
-│   └── whats-next.md   # Development roadmap
-├── Makefile            # Build configuration
-└── README.md           # This file
 ```
 
 ## Development
