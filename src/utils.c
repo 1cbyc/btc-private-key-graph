@@ -35,7 +35,10 @@ int hex_to_bytes(const char *hex, uint8_t *bytes, size_t bytes_size) {
 int bytes_to_hex(const uint8_t *bytes, size_t bytes_size, char *hex, size_t hex_size) {
     if (!bytes || !hex || hex_size == 0) return -1;
     
-    if (hex_size < bytes_size * 2 + 1) return -1;
+    if (hex_size < bytes_size * 2 + 1) {
+        fprintf(stderr, "Buffer too small: need %zu, have %zu\n", bytes_size * 2 + 1, hex_size);
+        return -1;
+    }
     
     for (size_t i = 0; i < bytes_size; i++) {
         snprintf(hex + i * 2, 3, "%02x", bytes[i]);
