@@ -4,11 +4,13 @@
 #include <signal.h>
 #include "keygen.h"
 #include "crypto.h"
+#include "address.h"
 #include "utils.h"
 
 static volatile int running = 1;
 
 void signal_handler(int sig) {
+    (void)sig;
     running = 0;
 }
 
